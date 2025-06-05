@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black: oklch(0.2243 0.0096 285.6); 
+  --color-normal: oklch(0.741 0.120 104.42);
+  --color-fire: oklch(0.695 0.235 46.74);
+  --color-water: oklch(0.662 0.204 270.66);
+  --color-electric: oklch(0.892 0.178 97.79);
+  --color-grass: oklch(0.728 0.188 137.24);
+  --color-ice: oklch(0.820 0.089 195.14);
+  --color-fighting: oklch(0.490 0.227 31.11);
+  --color-poison: oklch(0.537 0.190 328.12);
+  --color-ground: oklch(0.749 0.133 84.53);
+  --color-flying: oklch(0.739 0.116 285.32);
+  --color-psychic: oklch(0.698 0.256 22.39);
+  --color-bug: oklch(0.666 0.224 102.53);
+  --color-rock: oklch(0.701 0.121 89.62);
+  --color-ghost: oklch(0.450 0.090 306.41);
+  --color-dragon: oklch(0.520 0.219 295.93);
+  --color-dark: oklch(0.387 0.059 42.64);
+  --color-steel: oklch(0.785 0.040 266.61);
+  --color-fairy: oklch(0.793 0.116 25.12);
+}
+
+@layer base {
+  body {
+    @apply bg-black;
+  }
+}
+
+@layer components {
+
+}
